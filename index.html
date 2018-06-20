@@ -37,7 +37,7 @@
 					<div class="a_btn" value='32'>0-2 მეტრი</div>
 					<div class="a_btn" value='43'>2-4 მეტრი</div>
 					<div class="a_btn" value='55'>4-6 მეტრი</div>
-					<div class="a_btn" value='65'>6 და მეტი</div>
+					<div class="a_btn" value='55'>6 და მეტი</div>
 				</div>
 				<div class="ans_box a_1">
 					<div class="a_btn"  value='smart'>სმარტი</div>
@@ -102,6 +102,19 @@
 			model : '32wd756',
 			size : 32 , 
 			os : 'smart',
+			Item : 'tv_4',
+			result : function(){
+
+				return "<div class='model'>" + 'მოდელი : ' + this.model + '</div>' + "<div class='size'>" + 'ზომა : ' +  this.size + '</div>' + "<div class='smart'>" + 'SMART : ' + this.os + '</div>' + "<div class='image tv_4'>" + '</div>';
+
+			}
+
+		},
+		{
+			name : 'sony',
+			model : '32wd756',
+			size : 32 , 
+			os : 'android',
 			Item : 'tv_4',
 			result : function(){
 
